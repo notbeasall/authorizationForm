@@ -47,7 +47,6 @@ function validation(user) {
   displayError("Вы ввели неверный E-mail и пароль", "errorMsg");
   displayHide();
   refreshForm();  
-  redBorder();
   return false;
 }
 
